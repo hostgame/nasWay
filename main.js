@@ -1,4 +1,4 @@
-var dappAddress = "n1sMiQBY8qVHVCDUZBdDXWxuD7PDrCWJRa1";
+var dappAddress = "n1fgZZ6FFNibS4HKUVyp1VtaZSCTKVBPTQc";
 var NebPay = require("nebpay");
 var nebPay = new NebPay();
 var loadedPosts = 0;
