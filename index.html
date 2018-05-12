@@ -28,6 +28,9 @@
     </div>
 </div>
 <div id="container">
+    <div class="hide" id="noExtension">
+        Please install <a target="_blank" href="https://github.com/ChengOrangeJu/WebExtensionWallet">WebExtensionWallet</a>  to use NameSend
+    </div>
     <div id="feed">
     </div>
     <a id="load-feed" href="#">Load more</a>
@@ -37,6 +40,15 @@
         Donate n1GsLVx6o7PrwhMuCPH3Bnwj46Sn6KdCVY8
     </div>
 </div>
+<script type="text/javascript">
+    if(typeof(webExtensionWallet) === "undefined"){
+        //alert ("Extension wallet is not installed, please install it first.")
+        $("#noExtension").removeClass("hide")
+    }else{
+        $("#search_value").attr("disabled",false)
+        $("#search").attr("disabled",false)
+    }
+</script>
 </body>
 
 </html>

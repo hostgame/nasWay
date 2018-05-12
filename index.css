@@ -178,3 +178,6 @@ div#inner-header .title,div#inner-header .actions {
 .hide {
     display: none !important;
 }
+#noExtension {
+    font-size: 25pt;
+}
